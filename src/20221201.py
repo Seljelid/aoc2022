@@ -1,4 +1,4 @@
-def calories():
+def calorie_counting():
     with open("data/01.txt") as f:
         lines = f.readlines()
     cals = []
@@ -16,4 +16,4 @@ def calories():
 
 
 if __name__ == "__main__":
-    calories()
+    calorie_counting()
